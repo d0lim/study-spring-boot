@@ -9,10 +9,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-public class JdbcTemplateMemberRepository implements MemberRepository {
+public class JdbcMemberRepository implements MemberRepository {
     private final DataSource dataSource;
 
-    public JdbcTemplateMemberRepository(DataSource dataSource) {
+    public JdbcMemberRepository(DataSource dataSource) {
         this.dataSource = dataSource;
     }
 
